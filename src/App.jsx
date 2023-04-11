@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
-import Starter from './tutorial/10-useReducer/starter/01-useReducer';
+import Starter from './tutorial/11-performance/starter/01-lower-state';
 import Navbar from './tutorial/09-context-api/starter/Navbar'
 import Final from './tutorial/10-useReducer/final/01-useReducer';
 import './App.css';
@@ -12,7 +12,7 @@ function App() {
     <div className="container">
       {/*<Navbar /> */}
       <Starter />
-      <Final />
+      {/*<Final />*/}
     </div>
   );
 
